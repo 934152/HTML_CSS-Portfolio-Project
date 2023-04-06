@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+footer img {
+    width: 100px;
+    height: 150px;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    height: 220px;
+    padding-bottom: 2rem;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    max-width: 100%;
+    background-color: #26877f;
+}
+
+nav li {
+    display: inline-block;
+    padding-inline: 7rem;
+    padding-top:  .5rem;
+    padding-bottom: .5rem;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:link {
+   text-decoration: none;
+}
+
+a:hover {
+    color: darkkhaki;
+}
+
+a:after {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    
+}
+
+.promotion {
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    border: 5px solid #26877f;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding-bottom: 1rem ;
+}
+
+.promotion p {
+    color:#26877f;
+}
+
+.promotion strong {
+    color: black;
+}
+
+.blog {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#grass {
+    width:240px;
+    height:240px;
+}
+
+#landscape {
+    width:240px;
+    height: 240px;
+}
+
+#plants {
+    width: 240px;
+    height: 240px;
+}
+
+.GreenGrass {
+    background-color: darkkhaki;
+    border-radius: 7px;
+    padding-top: 1rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.GreenGrass h2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.GreenGrass p {
+    font-size: small;
+}
+
+.LandscapeTips {
+    background-color: darkkhaki;
+    border-radius: 7px;
+    padding-top: 1rem;
+    margin-left: 1rem;
+}
+
+.LandscapeTips h2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.LandscapeTips p {
+    font-size: small;
+}
+
+.SummerPlants {
+    background-color: darkkhaki;
+    border-radius: 7px;
+    padding-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.SummerPlants h2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.SummerPlants p {
+    font-size: small;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    margin-top: 5%;
+    align-items:  center;
+    border-top: 3px solid #26877f;
+}
+
+footer img {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+footer p {
+    text-align: end;
+    margin-right: 2rem;
+}
+
+footer div {
+    flex: 1;
+}
